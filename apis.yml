@@ -1,8 +1,26 @@
 aid: optoscale
 name: Optoscale
-description: Optoscale is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Optoscale (OptoScale AS) is a Norwegian aquaculture technology company founded
+  in 2015 in Trondheim that builds AI-powered, camera-based edge-computing monitoring for
+  fish farming. Its Bioscope units capture real-time measurements of fish weight, biomass,
+  sea-lice counts, welfare, behaviour and feeding, producing tens of thousands of validated
+  measurements each day directly on the unit rather than on remote servers. Customers view
+  trends, graphs and high-resolution imagery through the OptoScale web portal, export to
+  Excel/CSV, and integrate the underlying data into their own analytics and farm-management
+  systems via OptoScale's data API. OptoScale was acquired by Insight Partners in 2025.
 url: https://raw.githubusercontent.com/api-evangelist/optoscale/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://optoscale.no/wp-content/uploads/2021/08/OptoScale-Logo-White-2.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +29,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Aquaculture
+- Fish Farming
+- Monitoring
+- Computer Vision
+- Edge Computing
+- Artificial Intelligence
+- IoT
+- Data Integration
+- Salmon
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/optoscale-domain-security.yml
 - type: Website
   url: https://optoscale.no/
+- type: About
+  url: https://optoscale.no/about-us/?lang=en
+- type: Support
+  url: https://optoscale.no/contact/?lang=en
+- type: Blog
+  url: https://optoscale.no/news/?lang=en
+- type: Login
+  url: https://web.optoscale.no/
+- type: PrivacyPolicy
+  url: https://optoscale.no/privacy-policy/
+- type: CookiePolicy
+  url: https://optoscale.no/cookie-policy/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/optoscale/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
