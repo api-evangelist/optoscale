@@ -9,6 +9,17 @@ description: Optoscale (OptoScale AS) is a Norwegian aquaculture technology comp
   Excel/CSV, and integrate the underlying data into their own analytics and farm-management
   systems via OptoScale's data API. OptoScale was acquired by Insight Partners in 2025.
 url: https://raw.githubusercontent.com/api-evangelist/optoscale/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
