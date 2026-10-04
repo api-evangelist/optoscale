@@ -46,7 +46,7 @@ tags:
 - Aquaculture
 - Fish Farming
 - Monitoring
-- Computer-Vision
+- Computer Vision
 - Edge Computing
 - Artificial Intelligence
 - IoT
@@ -63,6 +63,7 @@ tags_raw:
 - IoT
 - Data Integration
 - Salmon
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
